@@ -1,0 +1,73 @@
+.contact__container{
+    background-color:#3A9ACA;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5rem;
+    gap: 5rem;
+}
+.contact__info img{
+    width: 60%;
+}
+.contact__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.contact__info h2{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.7rem;
+}
+.contact__info p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.698);
+    font-size:1.5rem ;
+    font-family: 'Roboto', sans-serif;
+}
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.contact__form label {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+.contact__form label:hover{
+    cursor: pointer;
+}
+.contact__form input{
+    margin: 1rem;
+    border-radius: .3rem;
+    border: none;
+}
+.contact__form input[type="text"]{
+    width: 20rem;
+    height: 10rem;
+    font-size: 1rem;
+}
+.contact__form input[type="email"]{
+    width: 20rem;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.contact__form button {
+    margin: 1rem;
+    font-size: 1.5rem;
+    border-radius: .2rem;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    transition: .5s;
+}
+.contact__form button:hover{
+    background-color: #246180;
+}
