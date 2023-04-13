@@ -25,11 +25,11 @@
         />
         <h1>Dev. Andrés García</h1>
         <p>Front End Jr.</p>
-        <ul class="nav__ul">
-          <li><a href="#about__me">About me</a></li>
-          <li><a href="#briefcase">Briefcase</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul class="nav__ul nav-fixed">
+          <li><a class="ancore__menu" href="#about__me">About me</a></li>
+          <li><a class="ancore__menu" href="#briefcase">Briefcase</a></li>
+          <li><a class="ancore__menu" href="#skills">Skills</a></li>
+          <li><a class="ancore__menu" href="#contact">Contact</a></li>
         </ul>
         <svg
           preserveAspectRatio="none"
@@ -45,17 +45,25 @@
         </svg>
       </nav>
     </section>
-    <section>
-      <div class="about__container">
+    <section id="about__me">
+      <div  class="about__container">
         <img
           class="about__svg"
           src="./img/Web Developer_Monochromatic (6).svg"
           alt="Ilustracion development"
         />
         <div class="about__info">
-          <h2 id="about__me">About Me</h2>
+          <h2>About Me</h2>
           <p>
-            My name is Andrés García Chávez, I am 23 years old, originally from Ensenada, Baja California. Mexico. I am a Front End jr developer, with 1 year of self-taught experience, passionate about technology and new learning, I am currently studying the Full Stack Developer career at Coder House, my level of English is currently basic, I am also an audiovisual producer and I am passionate about music. My greatest qualities are to be responsible, proactive, orderly and dedicated to what I do. I handle technologies such as Html, CSS, JavaScript, Sass, and in learning: Swift, SwiftUi, mySQL.
+            My name is Andrés García Chávez, I am 23 years old, originally from
+            Ensenada, Baja California. Mexico. I am a Front End jr developer,
+            with 1 year of self-taught experience, passionate about technology
+            and new learning, I am currently studying the Full Stack Developer
+            career at Coder House, my level of English is currently basic, I am
+            also an audiovisual producer and I am passionate about music. My
+            greatest qualities are to be responsible, proactive, orderly and
+            dedicated to what I do. I handle technologies such as Html, CSS,
+            JavaScript, Sass, and in learning: Swift, SwiftUi, mySQL.
           </p>
         </div>
       </div>
@@ -63,23 +71,23 @@
     <section id="briefcase">
       <main>
         <div class="portafolio__container">
-          <h3>Portafolio</h3>
+          <h3>BriefCase</h3>
           <div class="portafolio__flex">
-            <a href="https://elitedev.github.io/Calculadora/" target="_blank"
+            <a href="https://elitedev.github.io/Calculadora/" target="_blank" rel="noopener"
               ><img src="./img/calculadora.webp" alt="App de Calculadora"
             /></a>
-            <a href="https://github.com/EliteDev/Weather-Finder" target="_blank"
+            <a href="https://github.com/EliteDev/Weather-Finder" target="_blank" rel="noopener"
               ><img src="./img/wheater.webp" alt="App del clima"
             /></a>
-            <a href="https://elitedev.github.io/App-IMC/" target="_blank"
+            <a href="https://elitedev.github.io/App-IMC/" target="_blank" rel="noopener"
               ><img src="./img/imc.webp" alt="App de Bmi"
             /></a>
             <a
-              href="https://elitedev.github.io/Online-Shop-Main/"
+              href="https://elitedev.github.io/Online-Shop-Main/" rel="noopener"
               target="_blank"
               ><img src="./img/Shop.webp" alt="Tienda de instrumentos"
             /></a>
-            <a href="https://elitedev.github.io/Toggle/" target="_blank"
+            <a href="https://elitedev.github.io/Toggle/" target="_blank" rel="noopener"
               ><img src="./img/toggle.webp" alt="Boton de luz"
             /></a>
             <a href="#" target="_blank"
@@ -102,25 +110,28 @@
           <i class="fa-brands fa-swift"></i>
         </div>
         <svg
-        preserveAspectRatio="none"
-        class="port__wave"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-      >
-        <path
-          fill="#3A9ACA"
-          fill-opacity="1"
-          d="M0,128L48,128C96,128,192,128,288,128C384,128,480,128,576,117.3C672,107,768,85,864,101.3C960,117,1056,171,1152,181.3C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
+          preserveAspectRatio="none"
+          class="port__wave"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+        >
+          <path
+            fill="#3A9ACA"
+            fill-opacity="1"
+            d="M0,128L48,128C96,128,192,128,288,128C384,128,480,128,576,117.3C672,107,768,85,864,101.3C960,117,1056,171,1152,181.3C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
       </div>
     </section>
-    <section id="contact">
+    <footer id="contact">
       <div class="contact__container">
         <div class="contact__info">
           <h2>Contact</h2>
-          <p>Send me an email to acquire my services!.</p> 
-          <img src="./img/Sending emails_Monochromatic.svg" alt="" />
+          <p>Send me an email to acquire my services!.</p>
+          <div class="contact__icons">
+            <a class="contact__a__icons" href="https://www.linkedin.com/in/andr%C3%A9s-garc%C3%ADa-8ba04225b/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="contact__a__icons" href="https://github.com/EliteDev" target="_blank"><i class="fa-brands fa-github" rel="noopener"></i></a>
+          </div>
         </div>
         <div class="contact__form">
           <form action="">
@@ -132,17 +143,18 @@
                 placeholder="micorreo@mail.com"
             /></label>
             <label for="password"
-              >Description<input type="text" name="password" id="password"
+              >Description<input class="description__contact" type="text" name="password" id="password"
             /></label>
             <button type="submit">SUBMIT</button>
           </form>
         </div>
         <div class="contact__info"></div>
       </div>
-    </section>
+    </footer>
     <script
       src="https://kit.fontawesome.com/70436840f7.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/ancore__scroll.js"></script>
   </body>
 </html>

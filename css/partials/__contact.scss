@@ -7,8 +7,18 @@
     padding: 5rem;
     gap: 5rem;
 }
-.contact__info img{
-    width: 60%;
+.contact__icons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+.contact__icons a{
+    font-size: 3rem;
+    color: white
+}
+.contact__icons a:hover{
+    cursor: pointer;
 }
 .contact__info{
     display: flex;
@@ -16,6 +26,7 @@
     justify-content: center;
     gap: 1rem;
 }
+
 .contact__info h2{
     color: white;
     font-family: "Poppins", sans-serif;
@@ -60,7 +71,6 @@
     height: 2rem;
     font-size: 1rem;
 }
-
 .contact__form button {
     margin: 1rem;
     font-size: 1.5rem;

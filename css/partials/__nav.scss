@@ -6,7 +6,6 @@ nav{
     align-items: center;
     flex-direction: column;
     background-color: white;
-
     gap: .5rem;
     background-color: #3A9ACA;
     height: 100vh;
@@ -33,7 +32,7 @@ nav ul{
     list-style: none;
     gap: 2rem;
 }
-a{
+.ancore__menu{
     color: #171717;
     font-size: 1.5rem;
     text-decoration: none;
@@ -41,7 +40,7 @@ a{
     font-family: 'Poppins', sans-serif;
     transition: 1s;
 }
-a:hover{
+.ancore__menu:hover{
     cursor: pointer;
     color: rgb(0, 54, 54);
 }
