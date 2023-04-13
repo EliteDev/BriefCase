@@ -335,7 +335,7 @@ nav ul {
     margin: 1rem 0;
   }
   nav h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   nav p {
     font-size: 1.3rem;
@@ -378,6 +378,10 @@ nav ul {
   .about__info p {
     font-size: 1.2rem;
     margin: 1.5rem 0;
+  }
+  .portafolio__flex img {
+    max-width: 20rem;
+    border-radius: 1rem;
   }
   .skills__container {
     background-color: #f3f4f5;
